@@ -1,0 +1,117 @@
+.sous-container {
+  background-color: white;
+  padding: 20px 5%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.center-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.title {
+  font-family: "Sinera", serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.side-image {
+  width: 82px;
+  height: auto;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.right-section a {
+  color: #c871dd;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.right-section a:hover {
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  padding: 10px 15px;
+  width: 250px;
+  background-color: #ffffff;
+}
+
+.searchbar-icon {
+  color: #c871dd;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.searchbar-input {
+  font-family: "Chigero", sans-serif;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 17px;
+  width: 100%;
+}
+
+
+.header-bottom {
+  margin-top: -20px;
+  font-family: "AshleySouthine", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.header-bottom a:nth-child(2) {
+  margin-right: 350px; 
+}
+
+.header-bottom a {
+  color: #9a37b2;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.header-bottom a:hover {
+  color: #000;
+  text-decoration: underline;
+}

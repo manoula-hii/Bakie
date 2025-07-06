@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Sinera";
+  src: url('./Sinera.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AshleySouthine";
+  src: url('./AshleySouthine.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Chigero";
+  src: url('./Chigero.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
