@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.topbar-container {
+  background-color: #fbb5fc;
+  color: white;
+  font-size: 14px; 
+  font-family: 'Outfit', sans-serif;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.topbar-content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4px 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar-links a {
+  margin-right: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.topbar-links a:hover {
+  text-decoration: underline;
+}
+
+.topbar-socials {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+.topbar-media a {
+ margin-left: 24px; 
+  color: white;
+  font-size: 18px;
+}
+.topbar-media a:hover {
+  color: #ffffffcc; 
+}
